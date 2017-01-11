@@ -1,0 +1,23 @@
+@import "Views/BaseView.less";
+@import "Views/GLView.less";
+@import "Views/ActiveCoasterTrackView.less";
+@import "Views/CameraSwitchView.less";
+
+.NoLimitsParkViewer {
+  margin: 50px;
+  width: ~"calc(100vw - 150px)";
+  height: ~"calc(100vh - 150px)";
+
+  border: 1px solid lighten(black, 80%);
+
+  font-family: Arial;
+
+  .animate {
+    transition: 500ms;
+    opacity: 0.001;
+
+    &.show {
+      opacity: 1;
+    }
+  }
+}

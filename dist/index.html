@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>NoLimitsParkViewer</title>
+        <script language="javascript" type="text/javascript" src="js/gl-matrix-64.min.js"></script>
+        <script language="javascript" type="text/javascript" src="js/NoLimitsParkViewer.js"></script>
+        <link rel="stylesheet" href="css/NoLimitsParkViewer.css">
+    </head>
+    <body style="padding: 0; margin: 0;">
+
+    <div class="NoLimitsParkViewer"></div>
+
+    <script type="application/javascript">
+        var parkViewer = null;
+
+        window.addEventListener("load", function() {
+            var baseView = document.querySelector('.NoLimitsParkViewer');
+            var parkViewer = new NLParkViewer.Application(baseView, {
+                trackURL: "Fenrir.nl2park"
+            });
+
+            window.addEventListener("resize", function() {
+                parkViewer.resize();
+            });
+        });
+    </script>
+    </body>
+</html>
