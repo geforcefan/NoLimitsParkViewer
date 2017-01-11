@@ -4,4 +4,8 @@ NL2Park parser and viewer written in TypeScript for web usage
 
 # Example
 
-https://cdn.rawgit.com/geforcefan/NoLimitsParkViewer/008b452a/dist/index.html
+Preloaded
+https://cdn.rawgit.com/geforcefan/NoLimitsParkViewer/bb46d193/dist/index_preloaded.html
+
+Drag and Drop own NL2Park files
+https://cdn.rawgit.com/geforcefan/NoLimitsParkViewer/bb46d193/dist/index_draganddrop.html
