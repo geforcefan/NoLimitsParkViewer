@@ -1,6 +1,6 @@
 /// <reference path="../NoLimits/Document/CustomTrackDocument.ts" />
 /// <reference path="../Maths/MathUtils" />
-
+/*
 namespace NLParkViewer.Camera {
     import MathUtils = NLParkViewer.Maths.MathUtils;
     import CustomTrackDocument = NLParkViewer.NoLimits.Document.CustomTrackDocument;
@@ -74,4 +74,4 @@ namespace NLParkViewer.Camera {
         public stopMovement(): void {
         }
     }
-}
+}*/
