@@ -22,3 +22,13 @@ https://cdn.rawgit.com/geforcefan/NoLimitsParkViewer/bb46d193/dist/index_preload
 - Drag and Drop own NL2Park files:
 
 https://cdn.rawgit.com/geforcefan/NoLimitsParkViewer/bb46d193/dist/index_draganddrop.html
+
+# Used 3rd party libraries
+
+- Implemented a TypeScript version of "Cubic Spline interpolation in C++": 
+
+http://kluge.in-chemnitz.de/opensource/spline/
+
+- Implemented a TypeScript version of the camera calculations used on openFVD made by altlenny: 
+
+https://github.com/altlenny/openFVD
