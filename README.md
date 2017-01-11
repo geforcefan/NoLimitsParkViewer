@@ -38,7 +38,7 @@ https://github.com/altlenny/openFVD
 # License information #
 #######################
 
-MobileFVD
+NoLimitsParkViewer
 Copyright (C) 2017, Ercan Akyürek <ercan.akyuerek@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
